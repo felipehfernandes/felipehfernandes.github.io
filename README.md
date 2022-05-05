@@ -1,2 +1,2 @@
-# felipehf_web_portfolio
-My web portfolio.
+# Web Portfolio
+Repository for my web portfolio.
