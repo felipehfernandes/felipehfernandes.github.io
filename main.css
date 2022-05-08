@@ -1,0 +1,179 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 22px;
+    background-color: #1C2826;
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 150px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links {
+    color: inherit;
+    text-decoration: underline;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: #DAEFB3;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 35px;
+    list-style: 45px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    color: #1C2826;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #C5C6C7;
+}
+
+.perfil img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.perfil {
+    width: 400px;
+    height: 400px;
+}
+
+.header-content {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* Vi na w3schools.com como uma solução para centralizar os elementos, não entendo perfeitamente como funciona.*/
+    transform: translate(-50%, -50%);
+}
+
+.header-text {
+    width: 400px;
+}
+
+.header-text h1 {
+    font-size: 70px;
+    color: #DAEFB3;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+
+.header-text p {
+    color: white;
+}
+
+.about-me {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 30px;
+}
+
+.frame {
+    padding: 15px 30px;
+    border: 5px solid #DAEFB3;
+    border-radius: 80px;
+    display: inline-block;
+}
+
+.about-me h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #DAEFB3;
+}
+
+.about-me p {
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    border-top: 1px solid #DAEFB3;
+    border-bottom: 1px solid #DAEFB3;
+}
+
+.hard-skills h3 {
+    text-align: center;
+    padding: 10px 15px;
+    color: #DAEFB3;
+    margin-right: 50px;
+}
+
+.soft-skills h3 {
+    text-align: center;
+    padding: 10px 15px;
+    color: #DAEFB3;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.hard-skills {
+    margin-left: 200px;
+}
+
+.soft-skills {
+    margin-right: 200px;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+.footer-container {
+    text-align: center;
+}
